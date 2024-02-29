@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #404269;
+}
+
+.general {
+  border: 1px solid #ffffff59;
+  padding: 12px;
+  width: 554px;
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tweetbutton {
+  background-color: #1da1f2; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  border: none; /* Remove a borda */
+  border-radius: 54px; /* Borda arredondada */
+  margin: 1px 3px;
+}
+
+.container-search button:hover {
+  background-color: #0d8ecf; /* Cor de fundo ao passar o mouse */
+}
+
+.container-tweet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem-logo {
+  border-radius: 50%;
+  margin: 0px 12px 0px 0px;
+}
+
+#tweetInput {
+  padding: 10px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  border: 1px solid #cccccc00; /* Borda sólida com cor cinza */
+  border-radius: 5px; /* Borda arredondada */
+  background-color: #ffffff00;
+  color: white;
+  width: 95.453%;
+  height: 45px;
+  font-size: 18px;
+}
+
+#tweetInput:focus {
+  outline: none; /* Remove o contorno ao focar */
+  border-color: #1da1f2; /* Altera a cor da borda ao focar */
+}
+
+#containertweets {
+  background-color: #404269;
+  height: 890px;
+  color: white;
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 12px 0px 0px 0px;
+}
+
+#containertweets div {
+  /* background-color: #303030; Cor de fundo */
+  padding: 10px; /* Espaçamento interno */
+  margin-bottom: 10px; /* Margem inferior */
+  border-radius: 5px; /* Borda arredondada */
+  border: 1px solid #303030; /* Borda sólida com cor cinza mais clara */
+  width: 515px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#containertweets div:last-child {
+  margin-bottom: 0; /* Remove a margem inferior do último tweet */
+}
+
+#containertweets div div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 0px solid #0d8ecf00;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#containertweets div div h1 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+#containertweets div button {
+  background-color: #1da1f2; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  padding: 12px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  border: none; /* Remove a borda */
+  border-radius: 54px; /* Borda arredondada */
+}
+
+.container-para-postagem {
+  border-bottom: 1px solid #ffffff59;
+  padding: 24px 24px 12px 24px;
+  margin: 9px 9px 0px 9px;
+}
